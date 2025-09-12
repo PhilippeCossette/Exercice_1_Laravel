@@ -14,6 +14,13 @@ class MainController extends Controller
     {
         return view('contact');
     }
+    public function storeContact(Request $request)
+    {
+        return view("contact", [
+            'informations' => $request
+        ]);
+    }
+
     public function indexAbout()
     {
         return view('about');
