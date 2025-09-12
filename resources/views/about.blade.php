@@ -62,28 +62,28 @@
         <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
             <div class="col mb-5 mb-5 mb-xl-0">
                 <div class="text-center">
-                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <img style="object-fit: cover; width: 150px; height: 150px;" class="img-fluid rounded-circle mb-4" src="{{ asset('assets/img/team/alex-carter.jpg') }}" alt="Alex Carter" />
                     <h5 class="fw-bolder">Alex Carter</h5>
                     <div class="fst-italic text-muted">Founder &amp; Lead Designer</div>
                 </div>
             </div>
             <div class="col mb-5 mb-5 mb-xl-0">
                 <div class="text-center">
-                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <img style="object-fit: cover; width: 150px; height: 150px;" class="img-fluid rounded-circle mb-4" src="{{ asset('assets/img/team/samantha-lee.jpg') }}" alt="Samantha Lee" />
                     <h5 class="fw-bolder">Samantha Lee</h5>
                     <div class="fst-italic text-muted">Head of Operations</div>
                 </div>
             </div>
             <div class="col mb-5 mb-5 mb-sm-0">
                 <div class="text-center">
-                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <img style="object-fit: cover; width: 150px; height: 150px;" class="img-fluid rounded-circle mb-4" src="{{ asset('assets/img/team/marcus-rivera.jpg') }}" alt="Marcus Rivera" />
                     <h5 class="fw-bolder">Marcus Rivera</h5>
                     <div class="fst-italic text-muted">Customer Experience Manager</div>
                 </div>
             </div>
             <div class="col mb-5">
                 <div class="text-center">
-                    <img class="img-fluid rounded-circle mb-4 px-4" src="https://dummyimage.com/150x150/ced4da/6c757d" alt="..." />
+                    <img style="object-fit: cover; width: 150px; height: 150px;" class="img-fluid rounded-circle mb-4" src="{{ asset('assets/img/team/nina-patel.jpg') }}" alt="Nina Patel" />
                     <h5 class="fw-bolder">Nina Patel</h5>
                     <div class="fst-italic text-muted">Technical Lead</div>
                 </div>
