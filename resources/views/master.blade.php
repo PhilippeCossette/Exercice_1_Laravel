@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container px-5">
-                <a class="navbar-brand" href="{{ url('/home') }}"><img style="max-height: 35px;" src="{{ asset('assets/img/logo.png') }}" alt="Logo"></a>
+                <a class="navbar-brand" href="{{ url('/home') }}"><img style="max-height: 25px;" src="{{ asset('assets/img/logo.png') }}" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav gap-2 ms-auto mb-2 mb-lg-0">
@@ -39,7 +39,7 @@
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto">
-                        <div class="small m-0 text-white">Copyright &copy; Your Website 2023</div>
+                        <div class="small m-0 text-white">Copyright &copy; KeyCraft 2023</div>
                     </div>
                     <div class="col-auto">
                         <a class="link-light small" href="#!">Privacy</a>
