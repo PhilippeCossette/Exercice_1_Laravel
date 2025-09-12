@@ -2,10 +2,23 @@
 @section('title', 'Contact Us')
 @section('content')
 <!-- Contact Page -->
-<section class="py-5 my-4">
+<section class="py-5 my-4 vh-100">
     <div class="container px-5">
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                @isset($informations)
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Your message has been sent successfully!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="bg-light p-4 rounded-4 shadow-sm">
+                    <p><strong>Name:</strong> {{ $informations->name }}</p>
+                    <p><strong>Email:</strong> {{ $informations->email }}</p>
+                    <p><strong>Phone:</strong> {{ $informations->phone }}</p>
+                    <p><strong>Message:</strong> {{ $informations->message }}</p>
+                    <button class="btn btn-primary" onclick="window.location.href='{{ url('/') }}'">Go back to Shopping</button>
+                </div>
+                @else
                 <!-- Form Card -->
                 <div class="card shadow-sm border-0 rounded-4 p-4 p-md-5">
                     <div class="text-center mb-4">
@@ -61,6 +74,7 @@
                     </form>
                 </div>
                 <!-- End Form Card -->
+                @endisset
             </div>
         </div>
     </div>
