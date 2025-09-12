@@ -4,4 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\MainController;
 
-Route::get('/', [MainController::class, 'index']);
+Route::get('/', [MainController::class, 'indexHome']);
+Route::get('home', [MainController::class, 'indexHome']);
+Route::get('contact', [MainController::class, 'indexContact']);
+Route::get('about', [MainController::class, 'indexAbout']);
+Route::get('faq', [MainController::class, 'indexFaq']);
