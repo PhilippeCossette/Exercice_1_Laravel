@@ -99,6 +99,23 @@
     }
 }
 
+#mainNav {
+    transition: background-color 0.3s ease;
+}
+
+#mainNav.bg-transparent:hover {
+    background-color: var(--bs-white) !important;
+}
+
+.nav-bar.bg-transparent {
+    background-color: rgba(255, 255, 255, 0) !important;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar.scrolled {
+    background-color: var(--bs-white) !important;
+}
+
 .underline-anim {
     position: relative;
 }
