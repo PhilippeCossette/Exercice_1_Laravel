@@ -6,6 +6,7 @@
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
 
+// Function to change the navbar state on scroll
 function navBarState() {
     const navBar = document.getElementById("mainNav");
 
